@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+input#campo {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    display: flex;
+    margin-bottom: 10px;
+}

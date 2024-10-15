@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+#txt1 {
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    background-color: #e4e9f8;
+    color: blueviolet;
+    display: block;
+    float: left;
+    margin-right: 36px;
+    margin-left: 36px;
+    font-size: large;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#txt2 {
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    background-color: #e4e9f8;
+    color: green;
+    display: block;
+    float: left;
+    margin-right: 36px;
+    font-size: large;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#txt3 {
+    width: 200px;
+    height: 15000px;
+    overflow: auto;
+    background-color: #e4e9f8;
+    color: orangered;
+    display: block;
+    float: left;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.scroll-button {
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    color: red;
+    border-radius: 20px;
+    z-index: -900;
+    margin-right: 10px;
+    cursor: pointer;
+}

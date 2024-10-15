@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="m-3" id="Titulo">Ola Mundo</h1>
+
+
+
+    <img class="m-3" src="img/notebook.jpg" alt="Caderno"><br>
+
+    <button onclick="trocar('notebook.jpg', 'Caderno')" type="button" class="btn btn-success">Trocar Para um Caderno</button>
+    <!--O botão "trocar para um caderno" tem uma função que carrega os parâmetros do nome da imagem e a descrição (alt) das imagem-->
+
+    <button onclick="trocar('smartphone.jpg', 'smartphone')" type="button" class="btn btn-danger">Trocar para um cellphone</button>
+    <!--O botão "trocar para um cell phone" tem uma função que carrega os parâmetros do nome da imagem e a descrição (alt) da imagem-->
+
+    <button onclick="oque()" type="button" class="btn btn-warning">Qual o objeto?</button>
+    <!--O botão "qual o objeto" carrega a função "oque", que diz a descrição da imagem-->
+
+
+
+    <!--<button onclick="trocar('notebook.jpg', 'Caderno')">Trocar Para um cadernin</button>
+    <button onclick="trocar('smartphone.jpg', 'smartphone')">Trocar para o cell da tua mãe aquela gorda</button>
+    <button onclick="oque()">Qual é o animal</button>-->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

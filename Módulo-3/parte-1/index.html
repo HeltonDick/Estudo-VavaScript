@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de clique</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="Titulo">Ola mundo!</h1>
+
+
+    <button onclick="mudar()">Ola, tudo bem com você?</button>
+    <!--Botão que ao ser clicado, ativa a função "mudar",
+    em que quando ativada executa o código-->
+
+
+    <hr>
+    <button onclick="this.innerHTML='Mudou o botão'">Se tu clicar vai mudar</button>
+    <hr>
+    <h2 onclick="alert('KKKKKKKKK de um alert')">Aqui é um h2, logicamento não mudara... NÉ?</h2>
+    <hr>
+    <h3 onclick="this.innerHTML='AAAAoepa'">se tu clicar aqui sim vai mudar</h3>
+
+
+    <!--Agora vai cer no teclado-->
+    <input onkeydown="console.log('Segurou Apertado')" type="text" id="campo" name="Usuario">
+    <!--Se a tecla for pressionada, e estiver abaixando, será contabilizado no console-->
+
+    <input onkeypress="console.log('Apertado')" type="text" id="campo" name="Usuario1">
+    <!--Se a tecla for pressionada, será contabilizado no console-->
+
+    <input onkeyup="console.log('soltou')" type="text" id="campo" name="Usuario2">
+    <!--Após a tecla for pressionada, será contabilizado no console-->
+
+
+</body>
+</html>

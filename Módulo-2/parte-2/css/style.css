@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+#cor {
+    height: 200px;
+    width: 250px;
+    margin: 36px;
+    border-radius: 1px solid black;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.verde {
+    background-color: green;
+    color: pink;
+}
+.azul {
+    background-color: blue;
+    color: yellow;
+}
+.vermelho {
+    background-color: red;
+    color: cyan;
+}

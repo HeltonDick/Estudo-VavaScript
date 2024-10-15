@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    width: 1440;
+}
+
+#digit {
+    width: 500px;
+    height: 80px;
+    border-radius: 100000px;
+    border: 2px solid;
+    text-align: center;
+    font-size: x-large;
+}
+
+#digit :hover {
+    background-color: orange;
+}
